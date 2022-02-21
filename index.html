@@ -4,7 +4,21 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Contact list</title>
   </head>
-  <body></body>
+  <body>
+    <div class="flex flex-col justify-center mt-24 w-96 mx-auto">
+      <section class="header">
+        <h1 class="text-2xl">Contact list</h1>
+        <input
+          type="text"
+          placeholder="Search"
+          class="search-input border border-gray-200 p-2 my-4 w-full"
+        />
+      </section>
+      <section class="flex flex-col contact-list"></section>
+    </div>
+    <script src="/script.js"></script>
+  </body>
 </html>
